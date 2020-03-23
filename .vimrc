@@ -12,6 +12,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'micbou/a.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'heavenshell/vim-pydocstring' 
+Plug 'vim-scripts/pyte'
+Plug 'morhetz/gruvbox'
 "Plug 'klen/python-mode'
 
 call plug#end()
@@ -36,16 +38,24 @@ set number
 set nowrap
 set softtabstop=4
 
+
 "colorschemes
 
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+
+set termguicolors
+
+"colorscheme happy_hacking
+"colorscheme solarized
+"colorscheme pyte
+
+let g:gruvbox_contrast_light='hard'
+
+colorscheme gruvbox
 
 highlight Search cterm=NONE ctermfg=cyan ctermbg=darkgrey
 
-"colorscheme happy_hacking
-"colorscheme gruvbox
 
 let g:syntastic_enable_signs=1
 
