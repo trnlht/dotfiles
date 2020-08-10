@@ -1,5 +1,5 @@
 set langmenu=en_US.UTF-8    " sets the language of the menu (gvim)
-language en
+"language en
 
 syntax enable
 set encoding=utf-8
@@ -18,6 +18,7 @@ Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdcommenter'
+Plug 'vim-scripts/pyte'
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 call plug#end()
@@ -28,3 +29,4 @@ nmap <F5> :w<CR>:!python %<CR>
 
 "set background=light
 "colorscheme gruvbox
+colorscheme pyte
