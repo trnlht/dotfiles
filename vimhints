@@ -1,0 +1,2 @@
+# Substitute
+:%s/old/new/gc
