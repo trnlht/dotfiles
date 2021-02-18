@@ -1,2 +1,4 @@
 # Substitute
+#  %  - whole file
+# .,$ - from current line to the end of file
 :%s/old/new/gc
