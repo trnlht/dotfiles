@@ -5,3 +5,6 @@
 
 # Go to line
 %line_num%G
+
+# Changing
+ci" - change word in double quotes
