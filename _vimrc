@@ -19,7 +19,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdcommenter'
 Plug 'vim-scripts/pyte'
-"Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'vim-syntastic/syntastic'
+Plug 'heavenshell/vim-pydocstring'
 
 call plug#end()
 
@@ -30,3 +31,8 @@ nmap <F5> :w<CR>:!python %<CR>
 "set background=light
 "colorscheme gruvbox
 colorscheme pyte
+
+"Перенести в другой файл
+let g:pydocstring_doq_path = 'C:\Users\d.kolesnikov.ALS\AppData\Local\Programs\Python\Python38\Scripts\doq.exe'
+
+let g:jedi#goto_command = "<F3>"
