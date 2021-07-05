@@ -6,5 +6,10 @@
 # Go to line
 %line_num%G
 
+# Jump
+Ctrl-O - backward
+Ctrl-I - forward
+
+
 # Changing
 ci" - change word in double quotes
