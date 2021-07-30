@@ -10,6 +10,9 @@
 Ctrl-O - backward
 Ctrl-I - forward
 
+# Search
+* - find next word under cursor
+# - find previous word under cursor
 
 # Changing
 ci" - change word in double quotes
