@@ -9,6 +9,7 @@
 # Jump
 Ctrl-O - backward
 Ctrl-I - forward
+<leader>+g = GoTo (jedi-vim)
 
 # Search
 * - find next word under cursor
