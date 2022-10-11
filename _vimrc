@@ -39,10 +39,6 @@ colorscheme pyte
 "[count]<leader>cu			uncomment
 "[count]<leader>c<space>	toggle
 
-
-"INFO
-"<leader>+g - GoTo (jedi-vim)
-
 "Перенести в другой файл
 let g:pydocstring_doq_path = 'C:\Users\trnlht\AppData\Local\Programs\Python\Python38\Scripts\doq.exe'
 
