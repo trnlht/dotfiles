@@ -21,11 +21,9 @@ Plug 'preservim/nerdcommenter'
 Plug 'vim-scripts/pyte'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
-
-
-let g:pydocstring_doq_path = 'C:\Users\trnlht\AppData\Local\Programs\Python\Python38\Scripts\doq.exe'
 
 
 autocmd vimenter * NERDTree
@@ -44,4 +42,10 @@ colorscheme pyte
 
 "INFO
 "<leader>+g - GoTo (jedi-vim)
+
+"Перенести в другой файл
+let g:pydocstring_doq_path = 'C:\Users\trnlht\AppData\Local\Programs\Python\Python38\Scripts\doq.exe'
+
+let g:jedi#goto_command = "<F3>"
+
 

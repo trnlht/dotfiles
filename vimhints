@@ -1,0 +1,19 @@
+# Substitute
+#  %  - whole file
+# .,$ - from current line to the end of file
+:%s/old/new/gc
+
+# Go to line
+%line_num%G
+
+# Jump
+Ctrl-O - backward
+Ctrl-I - forward
+<leader> + g - GoTo (jedi-vim)
+
+# Search
+* - find next word under cursor
+# - find previous word under cursor
+
+# Changing
+ci" - change word in double quotes
