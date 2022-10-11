@@ -19,9 +19,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdcommenter'
 Plug 'vim-scripts/pyte'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 call plug#end()
+
+
+let g:pydocstring_doq_path = 'C:\Users\trnlht\AppData\Local\Programs\Python\Python38\Scripts\doq.exe'
+
 
 autocmd vimenter * NERDTree
 
@@ -30,3 +35,13 @@ nmap <F5> :w<CR>:!python %<CR>
 "set background=light
 "colorscheme gruvbox
 colorscheme pyte
+
+"Comments 
+"[count]<leader>cc			comment
+"[count]<leader>cu			uncomment
+"[count]<leader>c<space>	toggle
+
+
+"INFO
+"<leader>+g - GoTo (jedi-vim)
+
